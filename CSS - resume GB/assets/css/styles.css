@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto', 'Verdana', sans-serif;
+  background-color: #EFEFEF;
+}
+
+/* Headers */
+h1{
+  font-size: 3em;
+}
+
+/* Layout and columns */
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+.clearfix-children:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col{
+  float: left;
+}
+
+.col.narrow{
+  width: 30%;
+}
+
+.col.mid{
+  width: 50%;
+}
+
+.col.wide{
+  width: 70%;
+}
+
+/* Text transforms */
+.uppercase{
+  text-transform: uppercase;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.text-medium{
+  font-size: 1.5em;
+}
+
+/* Colorways */
+
+/* Box model helpers */
+.my-0{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.px-1{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* Uniques */
+#introbgtext{
+  font-size: 10em;
+  font-weight: bold;
+  color: #DCDCDC;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  line-height: 0.9em;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+#box{
+  display: inline;
+  background-color: #000;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 30px;
+}
+
+#introsection{
+  margin-top: 20vh;
+}
+
+#cv{
+  margin-top: 20vh;
+}
