@@ -1,0 +1,36 @@
+/* Color Palette
+Cgrey blue = #A5B6B2
+Shadow blue = #7691A7
+Nickel = #6F6D76
+LILAC = #CEA5B8
+Magnolia = #F3EFFF
+*/
+
+body {
+  background: lightblue;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* Header and Footer
+--------------------------- */
+header, footer{
+  background:#7691A7;
+  color:#1E1B28;
+}
+header h1, header h2{
+  color:black;
+}
+
+/* Work Experiene
+---------------------------- */
+.work{
+  background: #6F6D76;
+}
+/* Education
+----------------------------- */
+.education{
+  background: #CEA5B8;
+}
