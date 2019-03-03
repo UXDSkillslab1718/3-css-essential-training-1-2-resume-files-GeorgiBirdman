@@ -1,0 +1,58 @@
+/* Color Palette
+CAMBRIDGE BLUE= #A5B6B2
+GAINSBORO = #D9E1E7
+Nickel = #6F6D76
+LILAC = #CEA5B8
+Magnolia = #F3EFFF
+*/
+
+body {
+  background: #7691A7;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Signika', sans-serif;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size:20px;
+  line-height:40px;
+}
+/* Header and Footer
+--------------------------- */
+header, footer{
+  background:lightblue;
+  color:#1E1B28;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+header h1, header h2{
+  color:black;
+  text-align: center;
+}
+
+/* Work Experiene
+---------------------------- */
+.work{
+  background: #A5B6B2;
+  font-family: 'Signika', sans-serif;
+}
+
+/* Education
+----------------------------- */
+.education{
+  background: #D9E1E7;
+  font-family: 'Signika', sans-serif;
+}
+
+footer h2{
+  text-align: right;
+}
