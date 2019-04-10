@@ -1,0 +1,121 @@
+/* Color Palette
+CAMBRIDGE BLUE= #A5B6B2
+GAINSBORO = #D9E1E7
+Nickel = #6F6D76
+LILAC = #CEA5B8
+Magnolia = #F3EFFF
+*/
+html{
+  box-sizing:border-box;
+}
+*, *:before, *:after{
+  box-sizing:inherit;
+}
+body {
+  background: #7691A7;
+  margin:0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.entrywrap{
+  max-width:950px;
+  margin: auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+h1 {
+  font-family: 'Signika', sans-serif;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin:0;
+}
+p {
+  font-size:20px;
+  line-height:40px;
+}
+
+.col-narrow{
+  width:30%;
+  float:left;
+  /*border: 1px solid black;
+  min-height: 175px; */
+}
+
+.col-wide{
+  width:70%;
+  float:left;
+  padding-left: 20px;
+  /*border: 1px solid black; */
+}
+.uppercase{
+  text-transform: uppercase;
+}
+/* Header and Footer
+--------------------------- */
+header, footer{
+  background:lightblue;
+  color:#1E1B28;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.profile-img{
+  /*width:300px; */
+  border-radius: 40%;
+  /*float: left;
+  margin-right: 30px; */
+  border: 1px solid black;
+}*/
+header h1, header h2{
+  color:black;
+  margin:0;
+}
+
+/*header{
+  text-align: center;
+}
+*/
+footer{
+  text-align: center;
+}
+/* Work Experiene
+---------------------------- */
+.work{
+  background: #A5B6B2;
+  font-family: 'Signika', sans-serif;
+}
+/* Selectors */
+h3 ~ p{
+  margin:0;
+}
+.job-description{
+  margin:bottom: 25px;
+}
+.job-description p:first-of-type{
+  margin-top: 0;
+}
+/* Education
+----------------------------- */
+.education{
+  background: #D9E1E7;
+  font-family: 'Signika', sans-serif;
+}
+p + h3{
+  margin-top: 30px;
+}
+.contact-info a{
+  background-color:pink;
+  margin:50px;
+  display: inline-block;
+}
+footer h2{
+  /*text-align: right;
+}*/
