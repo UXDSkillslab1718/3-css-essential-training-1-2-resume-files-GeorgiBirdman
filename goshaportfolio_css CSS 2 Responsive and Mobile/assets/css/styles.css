@@ -1,0 +1,203 @@
+/* Color Palette
+CAMBRIDGE BLUE= #A5B6B2
+GAINSBORO = #D9E1E7
+Nickel = #6F6D76
+LILAC = #CEA5B8
+Magnolia = #F3EFFF
+*/
+html{
+  box-sizing:border-box;
+}
+*, *:before, *:after{
+  box-sizing:inherit;
+}
+body {
+  background: #7691A7;
+  margin:0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.entrywrap{
+  max-width:950px;
+  margin: auto;
+  padding: 60px 50px;
+  overflow: auto;
+}
+
+h1 {
+  font-family: 'Signika', sans-serif;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin:25px;
+  margin-left: 3px;
+}
+p {
+  font-size:20px;
+  line-height:40px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+.btn {
+  text-decoration: none;
+  background:#CEA5B8;
+  color:white;
+  padding: 10px;
+  display: inline-block;
+}
+/* Header and Footer
+--------------------------- */
+header, footer{
+  background:lightblue;
+  color:#1E1B28;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.profile-img{
+  /*width:300px; */
+  border-radius: 40%;
+  /*float: left;
+  margin-right: 30px; */
+  border: 1px solid black;
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+header{
+  padding-top: 50px;
+  position: relative;
+  background-image:url(https://images.unsplash.com/photo-1553531768-299620b2f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80);
+  /*  linear-gradient(rgba(45, 0, 239, 0.5);
+    rgba(255, 0, 0, 0.5);
+  url(https://images.unsplash.com/photo-1554376787-04e5b3d367e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80);*/
+  background-position:cover;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+header h1, header h2{
+  color:black;
+  margin:0;
+}
+
+
+/*header{
+  text-align: center;
+}
+*/
+footer{
+  text-align: center;
+}
+
+/* Navigation
+---------------------------- */
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: -2%;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform:full-width;
+  font-weight:700;
+}
+
+/* Work Experiene
+---------------------------- */
+.work{
+  background: #A5B6B2;
+  font-family: 'Signika', sans-serif;
+}
+/* Selectors */
+h3 ~ p{
+  margin:0;
+}
+.job-description{
+  margin:bottom: 25px;
+}
+.job-description p:first-of-type{
+  margin-top: 0;
+}
+/* Education
+----------------------------- */
+.education{
+  background:linear-gradient(rgba(217, 225, 231, 0.8), rgba(217, 225, 231, 0.5)),
+  url(https://images.unsplash.com/photo-1519419166318-4f5c601b8e6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80),fixed;
+  font-family: 'Signika', sans-serif;
+  background-size: contain;
+}
+p + h3{
+  margin-top:30px;
+}
+
+.edu-description h3{
+  margin: 20px;
+  padding: 10px;
+}
+
+.edu-description p:first-of-type{
+  padding: 8px;
+  position:static;
+  margin: -20px;
+  margin-bottom: : 20px;
+  margin-top: 5px;
+}
+
+/* Info to follow
+---------------------------- */
+.contact-info a{
+  padding:8px;
+  background-color:pink;
+  width: 28%;
+  margin-left:-5px;
+  margin-right: -5px;
+  margin-top: -3px;
+  display: inline-block;
+}
+footer h2{
+  /*text-align: right;
+}*/
+}
+/* Media Queries
+---------------------------- */
+@media (min-width: 900px){
+  .col-narrow{
+    width:30%;
+    float:left;
+    /*border: 1px solid black;
+    min-height: 175px; */
+  }
+
+  .col-wide{
+    width:70%;
+    float:left;
+    padding-left: 50px;
+    /*border: 1px solid black; */
+  }
+}
+@media (max-width: 899px){
+  header{
+    text-align: center;
+  }
+  .profile-img{
+    width:200px;
+  }
+}
